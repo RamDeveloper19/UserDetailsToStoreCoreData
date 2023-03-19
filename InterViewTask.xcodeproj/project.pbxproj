@@ -7,25 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD7342CF782E46141A1053DD /* Pods_InterViewTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42562EA41856C0E55D650FC /* Pods_InterViewTask.framework */; };
+		F530296729C5E9CC00C59254 /* UserListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F530296629C5E9CB00C59254 /* UserListVC.swift */; };
+		F530296A29C5E9EC00C59254 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F530296929C5E9EC00C59254 /* UserListView.swift */; };
+		F530296F29C5EA5A00C59254 /* UserTBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F530296E29C5EA5A00C59254 /* UserTBCell.swift */; };
+		F530297129C625E100C59254 /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F530297029C625E100C59254 /* UIKitExtension.swift */; };
+		F530297329C6270000C59254 /* PickerViewTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F530297229C6270000C59254 /* PickerViewTextField.swift */; };
+		F530297629C629B500C59254 /* GoogleMapsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F530297529C629B500C59254 /* GoogleMapsVC.swift */; };
+		F530297929C629D400C59254 /* GoogleMapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F530297829C629D400C59254 /* GoogleMapsView.swift */; };
+		F530297D29C62A6E00C59254 /* mapStyleUber.json in Resources */ = {isa = PBXBuildFile; fileRef = F530297C29C62A6E00C59254 /* mapStyleUber.json */; };
+		F530298229C62E9C00C59254 /* GoogleMapsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F530298129C62E9C00C59254 /* GoogleMapsHelper.swift */; };
 		F5AA6FC628A0DAB500B74A5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA6FC528A0DAB500B74A5B /* AppDelegate.swift */; };
-		F5AA6FC828A0DAB500B74A5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA6FC728A0DAB500B74A5B /* SceneDelegate.swift */; };
-		F5AA6FCA28A0DAB500B74A5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA6FC928A0DAB500B74A5B /* ViewController.swift */; };
 		F5AA6FCD28A0DAB500B74A5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AA6FCB28A0DAB500B74A5B /* Main.storyboard */; };
 		F5AA6FD028A0DAB500B74A5B /* InterViewTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5AA6FCE28A0DAB500B74A5B /* InterViewTask.xcdatamodeld */; };
 		F5AA6FD228A0DAB800B74A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5AA6FD128A0DAB800B74A5B /* Assets.xcassets */; };
 		F5AA6FD528A0DAB800B74A5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AA6FD328A0DAB800B74A5B /* LaunchScreen.storyboard */; };
+		F5F270AA29C5B809001BEE43 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F270A929C5B809001BEE43 /* UserInfoView.swift */; };
+		F5F270AD29C5B890001BEE43 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F270AC29C5B890001BEE43 /* UserModel.swift */; };
+		F5F270AF29C5BA1A001BEE43 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F270AE29C5BA1A001BEE43 /* UserInfoVC.swift */; };
+		F5F270B329C5C377001BEE43 /* LocalDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F270B229C5C377001BEE43 /* LocalDataBase.swift */; };
+		F5F270B629C5C4E9001BEE43 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F270B529C5C4E9001BEE43 /* AlertHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B42562EA41856C0E55D650FC /* Pods_InterViewTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterViewTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8FD22EB42EBBF12CA6809FA /* Pods-InterViewTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterViewTask.debug.xcconfig"; path = "Target Support Files/Pods-InterViewTask/Pods-InterViewTask.debug.xcconfig"; sourceTree = "<group>"; };
+		F369D394B9351076582F7623 /* Pods-InterViewTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterViewTask.release.xcconfig"; path = "Target Support Files/Pods-InterViewTask/Pods-InterViewTask.release.xcconfig"; sourceTree = "<group>"; };
+		F530296629C5E9CB00C59254 /* UserListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListVC.swift; sourceTree = "<group>"; };
+		F530296929C5E9EC00C59254 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		F530296E29C5EA5A00C59254 /* UserTBCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTBCell.swift; sourceTree = "<group>"; };
+		F530297029C625E100C59254 /* UIKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
+		F530297229C6270000C59254 /* PickerViewTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewTextField.swift; sourceTree = "<group>"; };
+		F530297529C629B500C59254 /* GoogleMapsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsVC.swift; sourceTree = "<group>"; };
+		F530297829C629D400C59254 /* GoogleMapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsView.swift; sourceTree = "<group>"; };
+		F530297C29C62A6E00C59254 /* mapStyleUber.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mapStyleUber.json; sourceTree = "<group>"; };
+		F530298129C62E9C00C59254 /* GoogleMapsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsHelper.swift; sourceTree = "<group>"; };
 		F5AA6FC228A0DAB500B74A5B /* InterViewTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterViewTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5AA6FC528A0DAB500B74A5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F5AA6FC728A0DAB500B74A5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F5AA6FC928A0DAB500B74A5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F5AA6FCC28A0DAB500B74A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5AA6FCF28A0DAB500B74A5B /* InterViewTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InterViewTask.xcdatamodel; sourceTree = "<group>"; };
 		F5AA6FD128A0DAB800B74A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5AA6FD428A0DAB800B74A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5AA6FD628A0DAB800B74A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F270A929C5B809001BEE43 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		F5F270AC29C5B890001BEE43 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		F5F270AE29C5BA1A001BEE43 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
+		F5F270B229C5C377001BEE43 /* LocalDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataBase.swift; sourceTree = "<group>"; };
+		F5F270B529C5C4E9001BEE43 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +61,117 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7342CF782E46141A1053DD /* Pods_InterViewTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F530296529C5E9A200C59254 /* UserListTB */ = {
+			isa = PBXGroup;
+			children = (
+				F530296629C5E9CB00C59254 /* UserListVC.swift */,
+			);
+			path = UserListTB;
+			sourceTree = "<group>";
+		};
+		F530296829C5E9D000C59254 /* UserListView */ = {
+			isa = PBXGroup;
+			children = (
+				F530296D29C5EA3700C59254 /* UserTBCell */,
+				F530296929C5E9EC00C59254 /* UserListView.swift */,
+			);
+			path = UserListView;
+			sourceTree = "<group>";
+		};
+		F530296B29C5E9F200C59254 /* UserInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				F5F270A929C5B809001BEE43 /* UserInfoView.swift */,
+			);
+			path = UserInfoView;
+			sourceTree = "<group>";
+		};
+		F530296C29C5EA0500C59254 /* UserInfoVC */ = {
+			isa = PBXGroup;
+			children = (
+				F5F270AE29C5BA1A001BEE43 /* UserInfoVC.swift */,
+			);
+			path = UserInfoVC;
+			sourceTree = "<group>";
+		};
+		F530296D29C5EA3700C59254 /* UserTBCell */ = {
+			isa = PBXGroup;
+			children = (
+				F530296E29C5EA5A00C59254 /* UserTBCell.swift */,
+			);
+			path = UserTBCell;
+			sourceTree = "<group>";
+		};
+		F530297429C6299C00C59254 /* MapVC */ = {
+			isa = PBXGroup;
+			children = (
+				F530297529C629B500C59254 /* GoogleMapsVC.swift */,
+			);
+			path = MapVC;
+			sourceTree = "<group>";
+		};
+		F530297729C629B800C59254 /* GoogleMapsView */ = {
+			isa = PBXGroup;
+			children = (
+				F530297829C629D400C59254 /* GoogleMapsView.swift */,
+			);
+			path = GoogleMapsView;
+			sourceTree = "<group>";
+		};
+		F530297A29C62A5800C59254 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F530297B29C62A5F00C59254 /* MapStyle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F530297B29C62A5F00C59254 /* MapStyle */ = {
+			isa = PBXGroup;
+			children = (
+				F530297C29C62A6E00C59254 /* mapStyleUber.json */,
+			);
+			path = MapStyle;
+			sourceTree = "<group>";
+		};
+		F530297E29C62E6400C59254 /* AlertHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F5F270B529C5C4E9001BEE43 /* AlertHelper.swift */,
+			);
+			path = AlertHelper;
+			sourceTree = "<group>";
+		};
+		F530297F29C62E7000C59254 /* PickerHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F530297229C6270000C59254 /* PickerViewTextField.swift */,
+			);
+			path = PickerHelper;
+			sourceTree = "<group>";
+		};
+		F530298029C62E7B00C59254 /* GooglMapsHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F530298129C62E9C00C59254 /* GoogleMapsHelper.swift */,
+			);
+			path = GooglMapsHelper;
+			sourceTree = "<group>";
+		};
 		F5AA6FB928A0DAB500B74A5B = {
 			isa = PBXGroup;
 			children = (
 				F5AA6FC428A0DAB500B74A5B /* InterViewTask */,
 				F5AA6FC328A0DAB500B74A5B /* Products */,
+				F6775D5F9A96165454904F0D /* Pods */,
+				FCCC1B8E9D7C49E3DC12E4DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,8 +187,11 @@
 			isa = PBXGroup;
 			children = (
 				F5AA6FC528A0DAB500B74A5B /* AppDelegate.swift */,
-				F5AA6FC728A0DAB500B74A5B /* SceneDelegate.swift */,
-				F5AA6FC928A0DAB500B74A5B /* ViewController.swift */,
+				F530297A29C62A5800C59254 /* Resource */,
+				F5F270B029C5C354001BEE43 /* Helper */,
+				F5F270A429C5B6D3001BEE43 /* Controller */,
+				F5F270A529C5B6F1001BEE43 /* View */,
+				F5F270A229C5B6C1001BEE43 /* Model */,
 				F5AA6FCB28A0DAB500B74A5B /* Main.storyboard */,
 				F5AA6FD128A0DAB800B74A5B /* Assets.xcassets */,
 				F5AA6FD328A0DAB800B74A5B /* LaunchScreen.storyboard */,
@@ -70,6 +201,79 @@
 			path = InterViewTask;
 			sourceTree = "<group>";
 		};
+		F5F270A229C5B6C1001BEE43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5F270AC29C5B890001BEE43 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5F270A429C5B6D3001BEE43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F530297429C6299C00C59254 /* MapVC */,
+				F530296C29C5EA0500C59254 /* UserInfoVC */,
+				F530296529C5E9A200C59254 /* UserListTB */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F5F270A529C5B6F1001BEE43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F530297729C629B800C59254 /* GoogleMapsView */,
+				F530296B29C5E9F200C59254 /* UserInfoView */,
+				F530296829C5E9D000C59254 /* UserListView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5F270B029C5C354001BEE43 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F530298029C62E7B00C59254 /* GooglMapsHelper */,
+				F530297F29C62E7000C59254 /* PickerHelper */,
+				F530297E29C62E6400C59254 /* AlertHelper */,
+				F5F270B429C5C4D4001BEE43 /* UIKitExtension */,
+				F5F270B129C5C35C001BEE43 /* LocalDBHelper */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F5F270B129C5C35C001BEE43 /* LocalDBHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F5F270B229C5C377001BEE43 /* LocalDataBase.swift */,
+			);
+			path = LocalDBHelper;
+			sourceTree = "<group>";
+		};
+		F5F270B429C5C4D4001BEE43 /* UIKitExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F530297029C625E100C59254 /* UIKitExtension.swift */,
+			);
+			path = UIKitExtension;
+			sourceTree = "<group>";
+		};
+		F6775D5F9A96165454904F0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8FD22EB42EBBF12CA6809FA /* Pods-InterViewTask.debug.xcconfig */,
+				F369D394B9351076582F7623 /* Pods-InterViewTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCCC1B8E9D7C49E3DC12E4DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B42562EA41856C0E55D650FC /* Pods_InterViewTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5AA6FD928A0DAB800B74A5B /* Build configuration list for PBXNativeTarget "InterViewTask" */;
 			buildPhases = (
+				F6B24E90D457EF8ABCD3FE1E /* [CP] Check Pods Manifest.lock */,
 				F5AA6FBE28A0DAB500B74A5B /* Sources */,
 				F5AA6FBF28A0DAB500B74A5B /* Frameworks */,
 				F5AA6FC028A0DAB500B74A5B /* Resources */,
+				8CC6D125D82691C4D4F02F88 /* [CP] Embed Pods Frameworks */,
+				D900A0E3DD7ED5E431AAE8C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,21 +337,92 @@
 			files = (
 				F5AA6FD528A0DAB800B74A5B /* LaunchScreen.storyboard in Resources */,
 				F5AA6FD228A0DAB800B74A5B /* Assets.xcassets in Resources */,
+				F530297D29C62A6E00C59254 /* mapStyleUber.json in Resources */,
 				F5AA6FCD28A0DAB500B74A5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8CC6D125D82691C4D4F02F88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InterViewTask/Pods-InterViewTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InterViewTask/Pods-InterViewTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InterViewTask/Pods-InterViewTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D900A0E3DD7ED5E431AAE8C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InterViewTask/Pods-InterViewTask-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InterViewTask/Pods-InterViewTask-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InterViewTask/Pods-InterViewTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B24E90D457EF8ABCD3FE1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InterViewTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F5AA6FBE28A0DAB500B74A5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5AA6FCA28A0DAB500B74A5B /* ViewController.swift in Sources */,
+				F530297629C629B500C59254 /* GoogleMapsVC.swift in Sources */,
 				F5AA6FC628A0DAB500B74A5B /* AppDelegate.swift in Sources */,
+				F530296A29C5E9EC00C59254 /* UserListView.swift in Sources */,
+				F530297329C6270000C59254 /* PickerViewTextField.swift in Sources */,
+				F530296F29C5EA5A00C59254 /* UserTBCell.swift in Sources */,
 				F5AA6FD028A0DAB500B74A5B /* InterViewTask.xcdatamodeld in Sources */,
-				F5AA6FC828A0DAB500B74A5B /* SceneDelegate.swift in Sources */,
+				F5F270B329C5C377001BEE43 /* LocalDataBase.swift in Sources */,
+				F5F270B629C5C4E9001BEE43 /* AlertHelper.swift in Sources */,
+				F530297929C629D400C59254 /* GoogleMapsView.swift in Sources */,
+				F5F270AD29C5B890001BEE43 /* UserModel.swift in Sources */,
+				F5F270AA29C5B809001BEE43 /* UserInfoView.swift in Sources */,
+				F5F270AF29C5BA1A001BEE43 /* UserInfoVC.swift in Sources */,
+				F530297129C625E100C59254 /* UIKitExtension.swift in Sources */,
+				F530296729C5E9CC00C59254 /* UserListVC.swift in Sources */,
+				F530298229C62E9C00C59254 /* GoogleMapsHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +566,7 @@
 		};
 		F5AA6FDA28A0DAB800B74A5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8FD22EB42EBBF12CA6809FA /* Pods-InterViewTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,13 +588,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.InterViewTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		F5AA6FDB28A0DAB800B74A5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F369D394B9351076582F7623 /* Pods-InterViewTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -337,7 +617,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.InterViewTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
